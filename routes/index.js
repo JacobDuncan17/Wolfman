@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { MXPortForwardingRulesController } = require('meraki');
 const apiRoutes = require('./api');
 
 router.use('/api', apiRoutes);
